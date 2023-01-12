@@ -1,0 +1,662 @@
+* {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+}
+/* Start Home */
+header {
+    background-image   : url(../images/bg.jpg);
+    background-position: center center;
+    background-size    : cover;
+    height             : 100vh;
+
+}
+
+header .layer {
+    background-color: rgb(0, 0, 0, 0.6);
+    height          : 100vh;
+}
+
+header .layer nav {
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .layer .navbar-brand {
+    color      : #fff !important;
+    font-weight: 900;
+}
+
+header .layer .nav-link {
+    color       : #fff !important;
+    margin-right: 10px;
+    position    : relative;
+}
+
+header .layer .nav-link::after {
+    content         : '';
+    width           : 0;
+    height          : 2px;
+    background-color: #fff;
+    position        : absolute;
+    top             : 30px;
+    left            : 10px;
+    transition      : all 1s;
+}
+
+header .layer .nav-link:hover:after {
+    width: 70%;
+
+}
+
+header .layer .home-content {
+    color          : #fff;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    height         : 100%;
+}
+
+header .layer .home-content h2 {
+    font-weight: 900;
+    font-size  : 50px;
+}
+
+header .layer .home-content h1 {
+    font-weight: 100;
+    font-size  : 60px;
+
+}
+
+header .layer .home-content h1::after {
+    content    : '';
+    font-weight: 700;
+    animation  : MoveText 5s infinite;
+}
+
+@keyframes MoveText {
+    0% {
+        content: 'L|';
+    }
+
+    1% {
+        content: 'La|';
+    }
+
+    2% {
+        content: 'Lar|';
+    }
+
+    3% {
+        content: 'Larr|';
+    }
+
+    4% {
+        content: 'Larry|';
+    }
+
+    5% {
+        content: 'Larry |';
+    }
+
+    6% {
+        content: 'Larry D|';
+    }
+
+    7% {
+        content: 'Larry Da|';
+    }
+
+    8% {
+        content: 'Larry Dan|';
+    }
+
+    9% {
+        content: 'Larry Dani |';
+    }
+
+    10% {
+        content: 'Larrry Danie |';
+    }
+
+    11% {
+        content: 'Larry Daniel |';
+    }
+
+    12% {
+        content: 'Larry Daniels |';
+    }
+
+    13% {
+        content: 'Larry Daniel|';
+    }
+
+    14% {
+        content: 'Larry Danie|';
+    }
+
+    15% {
+        content: 'Larry Dani|';
+    }
+
+    16% {
+        content: 'Larry Dan|';
+    }
+
+    17% {
+        content: 'Larry Da|';
+    }
+
+    18% {
+        content: 'Larry D|';
+    }
+
+    19% {
+        content: 'Larry |';
+    }
+
+    20% {
+        content: 'Larry|';
+    }
+
+    21% {
+        content: 'Larr|';
+    }
+
+    22% {
+        content: 'Lar|';
+    }
+
+    23% {
+        content: 'La|';
+    }
+
+    24% {
+        content: 'L|';
+    }
+
+    25% {
+        content: '|';
+    }
+
+    40% {
+        content: 'D|';
+    }
+
+    41% {
+        content: 'De|';
+    }
+
+    42% {
+        content: 'Des|';
+    }
+
+    43% {
+        content: 'Desi|';
+    }
+
+    44% {
+        content: 'Desig|';
+    }
+
+    45% {
+        content: 'Design|';
+    }
+
+    46% {
+        content: 'Designe|';
+    }
+
+    47% {
+        content: 'Designer|';
+    }
+
+    60% {
+        content: 'Designe|';
+    }
+
+    61% {
+        content: 'Design|';
+    }
+
+    62% {
+        content: 'Desig|';
+    }
+
+    63% {
+        content: 'Desi|';
+    }
+
+    64% {
+        content: 'Des|';
+    }
+
+    65% {
+        content: 'De|';
+    }
+
+    66% {
+        content: 'D|';
+    }
+
+    67% {
+        content: '|';
+    }
+
+    69% {
+        content: 'D|';
+    }
+
+    70% {
+        content: 'De|';
+    }
+
+    71% {
+        content: 'Dev|';
+    }
+
+    72% {
+        content: 'Dev|';
+    }
+
+    73% {
+        content: 'Deve|';
+    }
+
+    74% {
+        content: 'Devel|';
+    }
+
+    75% {
+        content: 'Develo|';
+    }
+
+    76% {
+        content: 'Develop|';
+    }
+
+    77% {
+        content: 'Develope|';
+    }
+
+    78% {
+        content: 'Developer|';
+    }
+
+    79% {
+        content: 'Developer |';
+    }
+
+    80% {
+        content: 'Develope|';
+    }
+
+    81% {
+        content: 'Develop|';
+    }
+
+    82% {
+        content: 'Develo|';
+    }
+
+    83% {
+        content: 'Devel|';
+    }
+
+    84% {
+        content: 'Deve|';
+    }
+
+    85% {
+        content: 'Dev|';
+    }
+
+    86% {
+        content: 'De|';
+    }
+
+    87% {
+        content: 'D|';
+    }
+
+    100% {
+        content: '|';
+    }
+}
+
+header .home-content .icons {
+    margin-top:50px;
+    padding-left:20px;
+    font-size:15px;
+}
+header .home-content .icons .icon{
+    width:20px;
+    height:20px;
+    display:flex;
+    display: inline;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.548);
+}
+/* End Home */
+
+/* Start About-Me */
+.about .about-content-info .btn-dark:hover{
+    background-color:transparent;
+    color:#000;
+
+}
+.about .about-content-info h2{
+    font-size:40px;
+}
+.bar-progress{
+    background-color:#eee;
+    box-shadow: 5px 5px 5px #aaa inset, 5px 5px 5px #aaa inset;
+    width:90%;
+    height:20px;
+    border-radius: 5px;
+    margin-top:20px;
+    color:#fff;
+    font-size:16px;
+    
+}
+.bar-progress .bar1{
+    background-color:#111;
+    width:95%;
+    height:20px;
+    border-radius: 5px;
+    padding-left:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bar-progress .bar2{
+    background-color:#111;
+    width:80%;
+    height:20px;
+    border-radius: 5px;
+    padding-left:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar-progress .bar3{
+    background-color:#111;
+    width:90%;
+    height:20px;
+    border-radius: 5px;
+    padding-left:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bar-progress  .bar1 span{
+    font-size:12px;
+    margin-right:10px;
+}
+.bar-progress  .bar2 span{
+    font-size:12px;
+    margin-right:10px;
+}
+.bar-progress  .bar3 span{
+    font-size:12px;
+    margin-right:10px;
+}
+
+/* Start Services */
+
+.services{
+    background-color:#F7F7F7;
+    margin:50px 0;
+    padding:70px 0;
+}
+.services h2{
+    padding:50px 0;
+    margin:50px 0;
+    font-size:40px;
+
+}
+.services .items .item{
+    padding:20px;
+
+}
+.services .items .item .layer{
+    background-color:#fff;
+    padding:50px 30px;
+    border-radius:5px;
+    
+}
+.services .items .item .layer i{
+    font-size:30px;
+    padding-bottom:20px;
+    background-color:#ccc;
+    width:10px;
+    height:10px;
+    padding:15px;
+    display:inline-block;
+    display:flex;
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    margin-top:30px;
+    transition: all 1s ;
+}
+.services .items .item .layer h4{
+    margin:30px 0 10px 0;
+}
+
+.services .items .item .layer:hover i{
+    background-color:#000;
+    color:#fff;
+}
+/* End Services */
+
+/* Start Portfolio */
+.portfolio h2{
+    font-size:40px;
+}
+.portfolio ul li{
+    position: relative;
+    cursor:pointer;
+
+}
+.portfolio ul li::after{
+    content:'';
+    position:absolute;
+    width:0;
+    height:2px;
+    top:30px;
+    left:0;
+    background-color:#000;
+    transition: 1s all;
+}
+
+.portfolio ul li:hover:after{
+    width:70%;
+
+}
+.portfolio .images .image {
+    padding-top:30px;
+}
+.portfolio .images .image .layer{
+    position:absolute;
+    top:5px;
+    left:5px;
+    right:5px;
+    bottom:100%;
+    background-color:rgba(255, 255, 255, 0.9);
+    transition: all .5s;
+    opacity:0;
+}
+
+.portfolio .images .image:hover .layer{
+    opacity:1;
+    bottom:5px;
+
+}
+.portfolio .images .image .layer h6{
+    letter-spacing: 1.5;
+}
+.portfolio .images .image .layer .icons{
+    display:flex;
+}
+.portfolio .images .image .layer .icons i{
+    font-size:15px;
+    width:30px;
+    height:30px;
+    padding:10px;
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    color:#ccc;
+    margin-left:5px;
+}
+/* End Portfolio */
+
+/* Start Testimonial */
+.testimonial{
+    background-color:#f7f7f7;
+    margin:50px 0;
+    padding:50px 0;
+}
+.testimonial h2{
+    font-size:40px;
+    font-weight:900;
+    text-align: center;
+}
+.testimonial .testimonial-content{
+    margin-top:50px;
+    text-align: center;
+}
+.testimonial .testimonial-content img{
+    width:100px;
+    border-radius:50%;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target]{
+    height:10px;
+    width:10px;
+    border-radius:50%;
+    position:relative;
+    top:50px;
+}
+
+.testimonial-info{
+    padding:50px 0;
+}
+.testimonial-info .icons .icon {
+    text-align: center;
+    font-size:40px;
+}
+.testimonial-info .icons .icon i{
+    margin-bottom:20px;
+}
+/* End Testimonial */
+
+/* Start Our Blog */
+.blog{
+    background-color:#f7f7f7;
+    padding:50px 0;
+    margin:50px 0;
+}
+
+.blog h2{
+    text-align: center;
+    font-size:40px;
+    padding-bottom:50px;
+    margin-bottom:30px;
+}
+
+.blog .items .item .layer{
+    background-color:#fff;
+    overflow:hidden;
+
+}
+.blog .items .item .layer img{
+    transition: all .5s;
+
+}
+.blog .items .item .layer div{
+    padding-top:10px;
+}
+
+.blog .items .item .layer p{
+    font-size:20px;
+    font-weight:700;
+}
+.blog .items .item .layer h6{
+    margin-bottom:20px;
+    position: relative;
+    cursor: pointer;
+}
+.blog .items .item .layer h6::after{
+    content:'';
+    width:25%;
+    height:2px;
+    background-color:#000;
+    position: absolute;
+    top:20px;
+    left:15px;
+}
+.blog .items .item .layer img:hover{
+    transform:scale(1.1);
+}
+/* End Our Blog */
+
+/* Start Contacts */
+.contacts{
+    margin:50px 0;
+    padding: 50px 0
+}
+.contacts h2{
+    padding:50px 0;
+    font-size:40px;
+    font-weight:900;
+}
+.contacts .contacts-info .info{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.contacts .contacts-info .info i{
+    font-size:25px;
+    height:70px;
+    width:70px;
+    background-color:#f7f7f7;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    border-radius:50%;
+    transition: all 1s;
+}
+.contacts .contacts-info .info:hover i{
+    background-color:rgba(0, 0, 0, 0.637);
+    color:#fff;
+}
+.contacts button{
+    margin-left:15px;
+}
+.contacts button:hover{
+    color:#000;
+    background-color:transparent;
+
+}
+/* End Contacts */
+
+.footer{
+    background-color:#000;
+    padding:20px 0;
+}
